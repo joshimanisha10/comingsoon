@@ -628,7 +628,7 @@ input.input100 {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: #f72359;
+  background: green;
   padding: 1em 1em;
   border: none;
   color: white;
@@ -650,7 +650,7 @@ input.input100 {
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side,green, transparent);
+  background: radial-gradient(circle closest-side,black, transparent);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   transition: width .2s ease, height .2s ease;
@@ -686,7 +686,7 @@ input.input100 {
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, green, transparent);
+  background: radial-gradient(circle closest-side, black, transparent);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   transition: width .2s ease, height .2s ease;
